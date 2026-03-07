@@ -20,8 +20,8 @@
                 <li><a href="#">Configurações</a></li>
             </ul>
             <div class="perfil-usuario">
-                <img src="https://ui-avatars.com/api/?name=Eric+Freitas&background=008080&color=fff" alt="Avatar">
-                <span>Eric Freitas</span>
+                <img src="https://ui-avatars.com/api/?name=Miguel+Casteletti&background=008080&color=fff" alt="Avatar">
+                <span>Miguel Casteletti Rosa</span>
             </div>
         </nav>
 
@@ -48,7 +48,7 @@
     </div>
 
     <footer>
-        <p>$copy; <?php echo date('Y'); ?> - Desenvolvido na aula de Web I</p>
+        <p>&copy; <?php echo date('Y'); ?> - Desenvolvido na aula de Web I</p>
     </footer>
 
 </body>
