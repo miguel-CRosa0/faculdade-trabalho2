@@ -10,44 +10,66 @@
 </head>
 
 <body>
-    <main>
-        <div class="header-content">
-            <h2>Gestão de Usuários</h2>
-            <p>Visualize e gerencie as permissões dos usuários do sistema.</p>
-        </div>
-        <div class="table-responsive">
-            <table>
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Nome</th>
-                        <th>E-mail</th>
-                        <th>Acesso</th>
-                        <th>Status</th>
-                        <th>Ações</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>01</td>
-                        <td>Miguel Casteletti Rosa</td>
-                        <td>miguelcastelettirosa@gmail.com</td>
-                        <td>Administrador</td>
-                        <td><span class="badge ativo">Ativo</span></td>
-                        <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button></td>
-                    </tr>
-                    <tr>
-                        <td>02</td>
-                        <td>Ana Souza</td>
-                        <td>ana.souza@email.com</td>
-                        <td>Editor</td>
-                        <td><span class="badge ativo">Ativo</span></td>
-                        <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button></td>
-                    </tr>
-                </tbody>
-        </div>
-        </table>
-    </main>
+    <div class="dashboard-container">
+        <?php include 'menu.php'; ?>
+        <main>
+            <div class="header-content">
+                <h2>Gestão de Usuários</h2>
+                <p>Visualize e gerencie as permissões dos usuários do sistema.</p>
+                <a href="cad-usuarios.php" class="btn registro">Novo Usuário</a>
+            </div>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>E-mail</th>
+                            <th>Acesso</th>
+                            <th>Status</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>Miguel Casteletti Rosa</td>
+                            <td>miguelcastelettirosa@gmail.com</td>
+                            <td>Administrador</td>
+                            <td><span class="badge ativo">Ativo</span></td>
+                            <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
+                                <button class="btn-icon"><i class="fa fa-trash" aria-hidden="true"></i>
+                                    <button class="btn-icon"><i class="fa fa-eye" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>Ana Souza</td>
+                            <td>ana.souza@email.com</td>
+                            <td>Editor</td>
+                            <td><span class="badge ativo">Ativo</span></td>
+                            <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
+                                <button class="btn-icon"><i class="fa fa-trash" aria-hidden="true"></i>
+                                    <button class="btn-icon"><i class="fa fa-eye" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>03</td>
+                            <td>Rafael Adriano Oliveira da Silva</td>
+                            <td>rafael.adriano2801@gmail.com</td>
+                            <td>Editor</td>
+                            <td><span class="badge inativo">Inativo</span></td>
+                            <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
+                                <button class="btn-icon"><i class="fa fa-trash" aria-hidden="true"></i>
+                                    <button class="btn-icon"><i class="fa fa-eye" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+        </main>
+    </div>
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>

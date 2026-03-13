@@ -21,6 +21,7 @@ nav {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 nav ul {
@@ -229,4 +230,28 @@ input:focus {
 
 .btn-cancel:hover {
     color: red;
+}
+
+.badge {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.badge.ativo {
+    background-color: #27ae60;
+    color: white;
+}
+
+.badge.inativo {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.registro{
+    position: relative;
+    left: 83%;
+    margin-bottom: 10px;
 }
