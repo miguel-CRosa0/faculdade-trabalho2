@@ -18,7 +18,7 @@
                     <h2><i class="fa-solid fa-user-plus"></i> Novo Usuário</h2>
                     <p>Preencha os dados abaixo para registrar um novo acesso.</p>
                 </div>
-                <form action="processa.php" method="POST">
+                <form action="insere-usuario.php" method="POST">
                     <div class="form-group">
                         <label for="nome">Nome Completo</label>
                         <input type="text" id="nome" name="nome" placeholder="Ex: Eric Freitas" required>
@@ -33,10 +33,21 @@
                             <input type="password" id="senha" name="senha" required>
                         </div>
                         <div class="form-group flex-1">
-                            <label for="nivel">Nivel</label>
+                            <label for="nivel">Nível</label>
                             <select id="nivel" name="nivel">
                                 <option value="1">Usuário</option>
                                 <option value="2">Administrador</option>
+                            </select>
+                        </div>
+                        <div class="form-group flex-1">
+                            <label for="ano">Ano de Nascimento</label>
+                            <select id="ano" name="ano">
+                                <?php
+                                $anoAtual = date("Y");
+                                for ($i = $anoAtual; $i >= 1900; $i--) {
+                                    echo "<option value='$i'>$i</option>";
+                                }
+                                ?>
                             </select>
                         </div>
                     </div>
