@@ -32,24 +32,6 @@
                             <label for="senha">Senha</label>
                             <input type="password" id="senha" name="senha" required>
                         </div>
-                        <div class="form-group flex-1">
-                            <label for="nivel">Nível</label>
-                            <select id="nivel" name="nivel">
-                                <option value="1">Usuário</option>
-                                <option value="2">Administrador</option>
-                            </select>
-                        </div>
-                        <div class="form-group flex-1">
-                            <label for="ano">Ano de Nascimento</label>
-                            <select id="ano" name="ano">
-                                <?php
-                                $anoAtual = date("Y");
-                                for ($i = $anoAtual; $i >= 1900; $i--) {
-                                    echo "<option value='$i'>$i</option>";
-                                }
-                                ?>
-                            </select>
-                        </div>
                     </div>
                     <div class="form-actions">
                         <button type="submit" class="btn-save">Finalizar Cadastro<i class="fa-floppy-disk"></i></button>

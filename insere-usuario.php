@@ -30,16 +30,6 @@
                         echo "<p><strong>Nome:</strong> " . $nome . "</p>";
                         echo "<p><strong>E-mail:</strong> " . $email . "</p>";
                         echo "<p><strong>Senha:</strong> " . $senha . "</p>";
-
-                        echo "<p><strong>Nível:</strong> ";
-                        if ($nivel == 2) {
-                            echo '<span class="badge ativo">Administrador</span>';
-                        } else {
-                            echo '<span class="badge inativo">Usuário Comum</span>';
-                        }
-                        echo "</p>";
-                        echo "<p><strong>Ano de Nascimento:</strong> " . $ano . "</p>";
-                        echo "</div>";
                     } else {
                         echo "<p>Nenhum dado recebido.</p>";
                     }
