@@ -27,6 +27,21 @@
                         <label for="email">E-mail</label>
                         <input type="email" id="email" name="email" placeholder="nome@empresa.com" required>
                     </div>
+                    <div class="form-group">
+                        <label for="acesso">Acesso</label>
+                        <select id="acesso" name="acesso" required>
+                            <option value="administrador">Administrador</option>
+                            <option value="editor">Editor</option>
+                            <option value="visualizador">Visualizador</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="status">Status</label>
+                        <select id="status" name="status" required>
+                            <option value="ativo">Ativo</option>
+                            <option value="inativo">Inativo</option>
+                        </select>
+                    </div>
                     <div class="form-row">
                         <div class="form-group flex-1">
                             <label for="senha">Senha</label>
@@ -35,7 +50,7 @@
                     </div>
                     <div class="form-actions">
                         <button type="submit" class="btn-save">Finalizar Cadastro<i class="fa-floppy-disk"></i></button>
-                        <a href="index.php" class="btn-cancel">Cancelar</a>
+                        <a href="dashboard.php" class="btn-cancel">Cancelar</a>
                     </div>
                 </form>
             </section>

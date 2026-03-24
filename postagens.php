@@ -18,7 +18,7 @@
                     <h2>Gestão de Postagens</h2>
                     <p>Visualize e gerencie as postagens do sistema.</p>
                 </div>
-
+                <a href="cad-postagens.php" class="btn-add"><i class="fa-solid fa-plus"></i> Adicionar Postagem</a>
             </div>
             <div class="table-responsive">
                 <table>
@@ -29,6 +29,7 @@
                             <th>Conteudo</th>
                             <th>Categoria</th>
                             <th>Status</th>
+                            <th>Ações</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -38,6 +39,9 @@
                             <td>Este é o conteúdo da primeira postagem.</td>
                             <td>Notícias</td>
                             <td><span class="badge ativo">Ativo</span></td>
+                            <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
+                                <button class="btn-icon"><i class="fa fa-trash" aria-hidden="true"></i>
+                            </td>
                         </tr>
                         <tr>
                             <td>02</td>
@@ -45,6 +49,9 @@
                             <td>Este é o conteúdo da segunda postagem.</td>
                             <td>Notícias</td>
                             <td><span class="badge ativo">Ativo</span></td>
+                            <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
+                                <button class="btn-icon"><i class="fa fa-trash" aria-hidden="true"></i>
+                            </td>
                         </tr>
 
                         <tr>
@@ -53,6 +60,9 @@
                             <td>Este é o conteúdo da terceira postagem.</td>
                             <td>Notícias</td>
                             <td><span class="badge inativo">Inativo</span></td>
+                            <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
+                                <button class="btn-icon"><i class="fa fa-trash" aria-hidden="true"></i>
+                            </td>
                         </tr>
                     </tbody>
                     <tfoot>

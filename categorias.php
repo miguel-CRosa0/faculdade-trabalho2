@@ -18,6 +18,7 @@
                     <h2>Gestão de Categorias</h2>
                     <p>Visualize e gerencie as categorias do sistema.</p>
                 </div>
+                <a href="cad-categorias.php" class="btn-add"><i class="fa-solid fa-plus"></i> Adicionar Categoria</a>
             </div>
             <div class="table-responsive">
                 <table>
@@ -26,26 +27,36 @@
                             <th>ID</th>
                             <th style="text-align: center;">Nome</th>
                             <th>Status</th>
+                            <th>Ações</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>01</td>
-                            <td style="text-align: center;">Miguel Casteletti Rosa</td>
+                            <td style="text-align: center;">Categoria 1</td>
                             <td><span class="badge ativo">Ativo</span></td>
+                            <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
+                                <button class="btn-icon"><i class="fa fa-trash" aria-hidden="true"></i>
+                            </td>
                         </tr>
                         <tr>
                             <td>02</td>
-                            <td style="text-align: center;">Ana Souza</td>
+                            <td style="text-align: center;">Categoria 2</td>
                             <td><span class="badge ativo">Ativo</span></td>
+                            <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
+                                <button class="btn-icon"><i class="fa fa-trash" aria-hidden="true"></i>
+                            </td>
                         </tr>
 
                         </tr>
 
                         <tr>
                             <td>03</td>
-                            <td style="text-align: center;">Rafael Adriano Oliveira da Silva</td>
+                            <td style="text-align: center;">Categoria 3</td>
                             <td><span class="badge inativo">Inativo</span></td>
+                            <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
+                                <button class="btn-icon"><i class="fa fa-trash" aria-hidden="true"></i>
+                            </td>
                         </tr>
                     </tbody>
                     <tfoot>

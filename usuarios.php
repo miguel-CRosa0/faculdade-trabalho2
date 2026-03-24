@@ -42,7 +42,6 @@
                             <td><span class="badge ativo">Ativo</span></td>
                             <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
                                 <button class="btn-icon"><i class="fa fa-trash" aria-hidden="true"></i>
-                                    <button class="btn-icon"><i class="fa fa-eye" aria-hidden="true"></i>
                             </td>
                         </tr>
                         <tr>
@@ -53,7 +52,6 @@
                             <td><span class="badge ativo">Ativo</span></td>
                             <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
                                 <button class="btn-icon"><i class="fa fa-trash" aria-hidden="true"></i>
-                                    <button class="btn-icon"><i class="fa fa-eye" aria-hidden="true"></i>
                             </td>
                         </tr>
 
@@ -65,7 +63,6 @@
                             <td><span class="badge inativo">Inativo</span></td>
                             <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
                                 <button class="btn-icon"><i class="fa fa-trash" aria-hidden="true"></i>
-                                    <button class="btn-icon"><i class="fa fa-eye" aria-hidden="true"></i>
                             </td>
                         </tr>
                     </tbody>
